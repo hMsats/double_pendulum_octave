@@ -1,5 +1,5 @@
 # double_pendulum_octave
-Swinging double pendulum in Octave (open source version of matlab)
+Swinging double pendulum in Octave (open source version of Matlab)
 
 In octave just type: `dp` to start. The pendulum is plotted via `plot` in Octave.
 
