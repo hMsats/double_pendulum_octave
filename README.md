@@ -7,4 +7,4 @@ It will first calculate the time delay necessary to make the pendulum swing in r
 
 Then press any key to start the pendulum.
 
-It uses fourth order Runge-Kutta on the solution of the Hamilton-Lagrange equations
+It uses fourth order Runge-Kutta on the solution of the Hamilton-Lagrange equations.
