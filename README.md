@@ -18,4 +18,8 @@ Parameters can easily be changed at the top of dp.m.
 It's fun to set both `TH10` and `TH20` to 180 degrees.
 This gives a vertical double pendulum which should be stable in theory but in practice begins to fall after about a minute due to the finite accuracy of the simulation.
 
+SEE THE DOUBLE PENDULUM IN ACTION IN THE PICTURE BELOW:
+
+
+
 ![Screenshot](dp.png)
