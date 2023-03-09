@@ -1,7 +1,16 @@
 # double_pendulum_octave
 Swinging double pendulum in Octave (open source version of Matlab).
 
-In Octave just type: `dp` to start.
+In the unpacked directory just run `dp` in Octave to start the simulation.
+
+On Linux (that already has Octave installed) just open a terminal and past the following lines:
+
+```
+git clone https://github.com/hMsats/double_pendulum_octave.git;\
+cd double_pendulum_octave;\
+octave dp.m
+```
+and hit Enter. Install octave via: `sudo apt install octave`.
 
 It will first calculate the time delay necessary to make the pendulum swing in realtime.
 
