@@ -1,5 +1,7 @@
 # double_pendulum_octave
-Swinging double pendulum in Octave (open source version of Matlab).
+Swinging double pendulum in Octave (open source version of Matlab). 
+
+Octave can be installed on Linux via `sudo apt install octave`.
 
 In the unpacked directory just run `dp` in Octave to start the simulation.
 
