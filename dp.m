@@ -2,7 +2,7 @@
 
 % Set various parameters
 
-  energy_loss_new=0.01;
+  energy_loss_new=0.1;
 
   N=4; % /* number of equations to solve */
   G=9.8; % /* gravitational acceleration in m/s^2 */
@@ -214,7 +214,7 @@
       energy=M1*G*y1+M2*G*y2+0.5*M1*w1*w1*L1*L1+0.5*M2*v2;
       energy_loss=(energy0-energy)/energy0*100;
       if (abs(energy_loss) > energy_loss_new)
-        fprintf(1,'\nThe energy loss equals: %f procent\n\n',energy_loss);
+        fprintf(1,'\nThe energy loss equals: %f per cent\n\n',energy_loss);
         fflush(1);
         toc
         energy_loss_new=energy_loss+0.01;
