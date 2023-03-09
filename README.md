@@ -7,6 +7,8 @@ It will first calculate the time delay necessary to make the pendulum swing in r
 
 Then press any key to start the pendulum. On Linux you end the program by typing crtl c.
 
-Parameters can easily be changed at the top of dp.m.
-
 It uses fourth order Runge-Kutta on the solution of the Hamilton-Lagrange equations.
+
+Parameters can easily be changed at the top of dp.m. 
+It's a lot of fun to set both `TH10` and `TH20` to 180 degrees.
+This gives a vertical double pendulum which should be stable in theory but in practice begins to fall after about a minute due to finite accuracy of the simulation.
