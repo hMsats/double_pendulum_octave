@@ -3,13 +3,15 @@ Swinging double pendulum in Octave (open source version of Matlab).
 
 In the unpacked directory just run `dp` in Octave to start the simulation.
 
-It will first calculate the time delay necessary to make the pendulum swing in realtime.
+It will plot the double pendulum, which starts swinging after 3 seconds.
 
-Then press any key to start the pendulum. On Linux you end the program by typing crtl c.
+The program will first calculate for 1 second the time delay necessary to make the pendulum swing in realtime.
+
+On Linux you end the program by typing crtl c.
 
 It uses fourth order Runge-Kutta on the solution of the Hamilton-Lagrange equations.
-The pendulum is plotted via `plot` in Octave.
 
-Parameters can easily be changed at the top of dp.m. 
-It's a lot of fun to set both `TH10` and `TH20` to 180 degrees.
+Parameters can easily be changed at the top of dp.m.
+
+It's fun to set both `TH10` and `TH20` to 180 degrees.
 This gives a vertical double pendulum which should be stable in theory but in practice begins to fall after about a minute due to the finite accuracy of the simulation.
