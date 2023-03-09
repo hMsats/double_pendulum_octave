@@ -12,9 +12,9 @@
   M1=1; % /* mass of pendulum 1 in kg */
   M2=1; % /* mass of pendulum 2 in kg */
 
-  TH10 = 120;
+  TH10 = 140;
   W10 = 0;
-  TH20 = 80;
+  TH20 = 100;
   W20 = 0;
 
   delt=0.005;
