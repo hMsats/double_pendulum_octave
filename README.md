@@ -5,7 +5,7 @@ In the unpacked directory just run `dp` in Octave to start the simulation.
 
 It will plot the double pendulum, which starts swinging after 3 seconds.
 
-The program will first calculate for 1 second the time delay necessary to make the pendulum swing in realtime.
+The program will first calculate for 2 seconds the time delay necessary to make the pendulum swing in realtime.
 
 On Linux you end the program by typing crtl c.
 
