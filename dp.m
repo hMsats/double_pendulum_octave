@@ -2,7 +2,7 @@
 
 % Set various parameters
 
-  energy_loss_new=0.01
+  energy_loss_new=0.01;
 
   N=4; % /* number of equations to solve */
   G=9.8; % /* gravitational acceleration in m/s^2 */
