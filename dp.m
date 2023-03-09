@@ -51,7 +51,7 @@
   t=0;
   m=1;
   nplot=0;
-  while t<1
+  while t<2
 
     t = t + delt;
 
