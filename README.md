@@ -5,7 +5,7 @@ In octave just type: `dp` to start. The pendulum is plotted via `plot` in Octave
 
 It will first calculate the time delay necessary to make the pendulum swing in realtime.
 
-Then press any key to start the pendulum.
+Then press any key to start the pendulum. On Linux you end the program by typing crtl c.
 
 Parameters can easily be changed at the top of dp.m.
 
