@@ -137,11 +137,7 @@
   m=1;
   treal=0;
 
-% Wait for key press
-  fprintf(1,'Press an arbitrary key to start (after 3 seconds): ');
-  fflush(1);
-  pause; fprintf(1,'\n');
-  fflush(1);
+% Pause for 3 seconds
   pause(3);
   tic;
   trealbegin=treal;
