@@ -9,7 +9,7 @@ It will plot the double pendulum, which starts swinging after 3 seconds.
 
 The program will first calculate for 2 seconds the time delay necessary to make the pendulum swing in realtime.
 
-On Linux you end the program by typing crtl c.
+On Linux you end the program by typing crtl c. 
 
 It uses fourth order Runge-Kutta on the solution of the Hamilton-Lagrange equations.
 
