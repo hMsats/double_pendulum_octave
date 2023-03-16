@@ -139,7 +139,7 @@
   treal=0;
 
 % Pause for 3 seconds
-  pause(3);
+  pause(10);
   tic;
   trealbegin=treal;
 
